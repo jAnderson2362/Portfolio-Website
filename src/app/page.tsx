@@ -1,18 +1,19 @@
 import Hero from "@/components/Hero";
-import About from "@/components/About";
+import Marquee from "@/components/Marquee";
 import Projects from "@/components/Projects";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      <Marquee />
       <Projects />
+      <About />
+      <Experience />
       <Contact />
-      <footer className="py-8 border-t border-border text-center text-xs text-muted">
-        Built with Next.js &amp; Tailwind CSS
-      </footer>
     </>
   );
 }

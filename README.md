@@ -1,8 +1,10 @@
-# Portfolio
+# James Anderson — Portfolio
 
-Personal portfolio site built with Next.js, React, TypeScript, and Tailwind CSS.
+Personal portfolio site for James Anderson: software developer in Auckland, NZ.
 
-## Getting started
+Built with [Next.js](https://nextjs.org), React, TypeScript, and Tailwind CSS v4.
+
+## Develop
 
 ```bash
 npm install
@@ -13,22 +15,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Structure
 
-```
-src/
-├── app/             # Next.js App Router pages & layout
-├── components/      # React components (Hero, About, Projects, Contact, Navbar)
-└── data/
-    └── projects.ts  # Edit this file to add/change your projects
-```
-
-## Customize
-
-1. **Your info** — update name and bio in `Hero.tsx` and `About.tsx`
-2. **Projects** — edit `src/data/projects.ts` to add your real work
-3. **Links** — update social links in `Contact.tsx` and email in the same file
-4. **Metadata** — change title & description in `layout.tsx`
-5. **Styling** — design tokens live in `globals.css` (colors, fonts)
+- `src/app/` — layout (fonts, metadata) and the single page
+- `src/components/` — page sections (Hero, Projects, About, Experience, Contact)
+- `src/data/` — all portfolio content (projects, skills, experience, education). Edit these files to update the site's content without touching any components.
 
 ## Deploy
 
-Push to GitHub and connect to [Vercel](https://vercel.com) for instant deploys.
+Static export–friendly; deploys to [Vercel](https://vercel.com) with zero configuration.

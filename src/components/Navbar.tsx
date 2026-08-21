@@ -1,63 +1,28 @@
-"use client";
-
-import { useState } from "react";
-
-const links = [
-  { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
-];
-
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
-
   return (
-    <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <div className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
-        <a href="/" className="font-bold text-lg tracking-tight">
-          YN<span className="text-accent">.</span>
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-line bg-background/80 backdrop-blur-sm">
+      <nav className="flex items-baseline justify-between px-5 py-4 sm:px-10">
+        <a href="#top" className="font-serif text-lg italic tracking-tight">
+          James Anderson
         </a>
-
-        {/* Desktop */}
-        <ul className="hidden sm:flex gap-6 text-sm text-muted">
-          {links.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                className="hover:text-foreground transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="sm:hidden text-muted hover:text-foreground p-1"
-          aria-label="Toggle menu"
-        >
-          {open ? "✕" : "☰"}
-        </button>
-      </div>
-
-      {/* Mobile menu */}
-      {open && (
-        <ul className="sm:hidden border-t border-border px-6 py-4 space-y-3 text-sm">
-          {links.map((link) => (
-            <li key={link.href}>
-              <a
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="text-muted hover:text-foreground transition-colors"
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
-    </nav>
+        <div className="hidden items-baseline gap-8 font-mono text-[11px] uppercase tracking-[0.18em] text-muted sm:flex">
+          <a href="#work" className="link-sweep hover:text-foreground">
+            Work
+          </a>
+          <a href="#about" className="link-sweep hover:text-foreground">
+            About
+          </a>
+          <a href="#experience" className="link-sweep hover:text-foreground">
+            Experience
+          </a>
+          <a href="#contact" className="link-sweep text-accent hover:text-accent-soft">
+            Contact
+          </a>
+        </div>
+        <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-faint sm:hidden">
+          Folio / 2026
+        </span>
+      </nav>
+    </header>
   );
 }
