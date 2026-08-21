@@ -1,6 +1,8 @@
-# James Anderson — Portfolio
+# James Anderson Portfolio
 
-Personal portfolio site for James Anderson: software developer in Auckland, NZ.
+Personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS.
+
+Showcasing projects and experience in full-stack web development, currently studying Computer Science at AUT.
 
 Built with [Next.js](https://nextjs.org), React, TypeScript, and Tailwind CSS v4.
 
@@ -13,11 +15,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Structure
+## Customize
 
-- `src/app/` — layout (fonts, metadata) and the single page
-- `src/components/` — page sections (Hero, Projects, About, Experience, Contact)
-- `src/data/` — all portfolio content (projects, skills, experience, education). Edit these files to update the site's content without touching any components.
+- **Projects** - edit `src/data/projects.ts`
+- **Bio & links** - update `src/components/Hero.tsx`, `About.tsx`, `Contact.tsx`
+- **Colors & theme** - `src/app/globals.css`
 
 ## Deploy
 
