@@ -1,4 +1,4 @@
-# James Anderson — Portfolio
+# James Anderson Portfolio
 
 Personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS.
 
@@ -15,9 +15,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Customize
 
-- **Projects** — edit `src/data/projects.ts`
-- **Bio & links** — update `src/components/Hero.tsx`, `About.tsx`, `Contact.tsx`
-- **Colors & theme** — `src/app/globals.css`
+- **Projects** - edit `src/data/projects.ts`
+- **Bio & links** - update `src/components/Hero.tsx`, `About.tsx`, `Contact.tsx`
+- **Colors & theme** - `src/app/globals.css`
 
 ## Deploy
 
