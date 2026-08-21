@@ -1,6 +1,8 @@
-# Portfolio
+# James Anderson — Portfolio
 
-Personal portfolio site built with Next.js, React, TypeScript, and Tailwind CSS.
+Personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS.
+
+Showcasing projects and experience in full-stack web development, currently studying Computer Science at AUT.
 
 ## Getting started
 
@@ -11,23 +13,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Structure
-
-```
-src/
-├── app/             # Next.js App Router pages & layout
-├── components/      # React components (Hero, About, Projects, Contact, Navbar)
-└── data/
-    └── projects.ts  # Edit this file to add/change your projects
-```
-
 ## Customize
 
-1. **Your info** — update name and bio in `Hero.tsx` and `About.tsx`
-2. **Projects** — edit `src/data/projects.ts` to add your real work
-3. **Links** — update social links in `Contact.tsx` and email in the same file
-4. **Metadata** — change title & description in `layout.tsx`
-5. **Styling** — design tokens live in `globals.css` (colors, fonts)
+- **Projects** — edit `src/data/projects.ts`
+- **Bio & links** — update `src/components/Hero.tsx`, `About.tsx`, `Contact.tsx`
+- **Colors & theme** — `src/app/globals.css`
 
 ## Deploy
 
