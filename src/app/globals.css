@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #100e0b;
-  --surface: #171410;
-  --foreground: #e9e4da;
-  --muted: #8f887a;
-  --faint: #5c574c;
-  --accent: #d96f4a;
-  --accent-soft: #e89372;
-  --line: #29251e;
-  --line-strong: #3a352b;
+  --background: #0b0b0b;
+  --surface: #141414;
+  --foreground: #e7e6e3;
+  --muted: #8b8a86;
+  --faint: #565551;
+  /* monochrome: the "accent" is just the brightest white — hierarchy by
+     brightness, not hue */
+  --accent: #ffffff;
+  --accent-soft: #ffffff;
+  --line: #242320;
+  --line-strong: #383733;
 }
 
 @theme inline {
@@ -22,9 +24,26 @@
   --color-accent-soft: var(--accent-soft);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
-  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-serif: var(--font-heading), Georgia, serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root[data-theme="light"] {
+  --background: #f5f4f0;
+  --surface: #eae9e4;
+  --foreground: #1a1a18;
+  --muted: #6b6a65;
+  --faint: #a5a49e;
+  --accent: #1a1a18;
+  --accent-soft: #1a1a18;
+  --line: #dddcd7;
+  --line-strong: #cccbc5;
+}
+
+:root[data-theme="light"] ::selection {
+  background: #1a1a18;
+  color: #f5f4f0;
 }
 
 html {
@@ -40,7 +59,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: #100e0b;
+  color: #0b0b0b;
 }
 
 /* film-grain overlay */

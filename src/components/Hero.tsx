@@ -14,7 +14,7 @@ export default function Hero() {
         </Reveal>
         <Reveal delay={0.1}>
           <p className="text-right">
-            Portfolio — 2026
+            Portfolio / 2026
             <br />
             <span className="text-faint">Software / Product</span>
           </p>
@@ -23,7 +23,18 @@ export default function Hero() {
 
       <h1 className="font-serif leading-[0.92] tracking-tight">
         <Reveal>
-          <span className="block text-[15vw] sm:text-[11vw]">James</span>
+          <span className="flex items-center gap-5 sm:gap-8">
+            <span className="text-[15vw] sm:text-[11vw]">James</span>
+            <span className="hidden shrink-0 sm:inline-block">
+              <span className="inline-block h-28 w-28 overflow-hidden rounded-full border border-line-strong lg:h-36 lg:w-36">
+                <img
+                  src="/profile.jpg"
+                  alt="James Anderson"
+                  className="h-full w-full object-cover"
+                />
+              </span>
+            </span>
+          </span>
         </Reveal>
         <Reveal delay={0.12}>
           <span className="block pl-[12vw] text-[15vw] sm:text-[11vw]">
@@ -35,16 +46,16 @@ export default function Hero() {
       <div className="mt-14 grid grid-cols-12 gap-6">
         <Reveal delay={0.25} className="col-span-12 sm:col-span-6 sm:col-start-6 lg:col-span-5 lg:col-start-7">
           <p className="text-lg leading-relaxed text-muted sm:text-xl">
-            Software developer building{" "}
-            <em className="font-serif italic text-foreground">useful things with care</em>{" "}
-            — currently studying computer science at AUT, founding{" "}
+            Software developer and CS student at AUT. I like{" "}
+            <em className="font-serif not-italic text-foreground">turning rough ideas into real things</em>.
+            Lately that means{" "}
             <a
               href="#work"
               className="link-sweep text-foreground underline decoration-line-strong underline-offset-4"
             >
               Prep
             </a>
-            , and shipping client work with WDCC.
+            , an exam-prep app I&rsquo;m building, plus client work with WDCC.
           </p>
           <div className="mt-8 flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.2em]">
             <span className="relative flex h-2 w-2">

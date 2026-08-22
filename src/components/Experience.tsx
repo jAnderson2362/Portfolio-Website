@@ -5,9 +5,14 @@ export default function Experience() {
   return (
     <section id="experience" className="px-5 py-24 sm:px-10 sm:py-32">
       <Reveal>
-        <h2 className="mb-16 font-serif text-4xl tracking-tight sm:text-6xl">
-          Where I&rsquo;ve <em className="italic text-accent">worked</em>
-        </h2>
+        <div className="mb-16 flex items-end justify-between">
+          <h2 className="font-serif text-4xl tracking-tight sm:text-6xl">
+            Where I&rsquo;ve worked
+          </h2>
+          <span className="hidden font-mono text-[11px] uppercase tracking-[0.2em] text-faint sm:block">
+            ( Experience )
+          </span>
+        </div>
       </Reveal>
 
       <div>
@@ -26,8 +31,8 @@ export default function Experience() {
               <ul className="col-span-12 space-y-2 text-sm leading-relaxed text-muted sm:col-span-5">
                 {role.notes.map((note) => (
                   <li key={note} className="flex gap-3">
-                    <span className="mt-[2px] text-accent" aria-hidden>
-                      —
+                    <span className="mt-[2px] text-faint" aria-hidden>
+                      ·
                     </span>
                     {note}
                   </li>

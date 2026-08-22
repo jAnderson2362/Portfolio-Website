@@ -13,24 +13,20 @@ export default function About() {
 
         <Reveal delay={0.1} className="col-span-12 sm:col-span-7">
           <p className="font-serif text-2xl leading-snug tracking-tight sm:text-4xl">
-            I like building products end to end — from{" "}
-            <em className="italic text-accent">talking to the people</em> who will
-            use them, to shipping the code that makes them real.
+            I like building products end to end. That means{" "}
+            <em className="not-italic text-accent">talking to the people</em> who&rsquo;ll
+            use them, then writing the code that makes it real.
           </p>
           <div className="mt-8 max-w-xl space-y-5 leading-relaxed text-muted">
             <p>
-              I&rsquo;m a computer science student at Auckland University of
-              Technology with a habit of turning ideas into working software. I
-              founded Prep, an exam-prep app, and lead its five-person team while
-              writing a good share of the code myself. Through AUT&rsquo;s Web
-              Development Consulting Club I build real client websites in a team
-              that reviews each other&rsquo;s work properly.
+              CS student at AUT. I founded Prep, an exam-prep app, and lead a
+              five-person team building it. I also build client websites through
+              University of Auckland&rsquo;s Web Development Consulting Club.
             </p>
             <p>
-              Before software, I ran dispatch operations and front-desk systems —
-              work that taught me the unglamorous skills that make projects
-              actually finish: keeping accurate records, communicating clearly,
-              and caring about the person on the other end.
+              Before software I worked dispatch and front-desk jobs, which taught
+              me how to keep accurate records, communicate clearly, and care about
+              the person on the other end.
             </p>
           </div>
         </Reveal>
@@ -51,9 +47,9 @@ export default function About() {
               <span className="mb-1 block uppercase tracking-[0.2em] text-faint">
                 Currently
               </span>
-              Prep — Founder
+              Prep, Founder
               <br />
-              WDCC — Web Dev
+              WDCC, Developer
             </p>
           </div>
         </Reveal>

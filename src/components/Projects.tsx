@@ -7,10 +7,10 @@ export default function Projects() {
       <Reveal>
         <div className="mb-16 flex items-end justify-between">
           <h2 className="font-serif text-4xl tracking-tight sm:text-6xl">
-            Selected <em className="italic text-accent">work</em>
+            Selected work
           </h2>
           <span className="hidden font-mono text-[11px] uppercase tracking-[0.2em] text-faint sm:block">
-            ( {String(projects.length).padStart(2, "0")} projects )
+            ( Work )
           </span>
         </div>
       </Reveal>
@@ -41,12 +41,12 @@ export default function Projects() {
                   <h3 className="font-serif text-3xl tracking-tight sm:text-5xl">
                     {project.title}
                   </h3>
-                  <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-accent">
+                  <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
                     {project.status}
                   </span>
                 </div>
                 <p className="mb-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
-                  {project.role} — {project.year}
+                  {project.role} / {project.year}
                 </p>
                 <p className="max-w-xl leading-relaxed text-muted">
                   {project.description}
@@ -61,8 +61,8 @@ export default function Projects() {
                 <ul className="mb-6 space-y-2 text-sm leading-relaxed text-muted">
                   {project.details.map((detail) => (
                     <li key={detail} className="flex gap-3">
-                      <span className="mt-[2px] text-accent" aria-hidden>
-                        —
+                      <span className="mt-[2px] text-faint" aria-hidden>
+                        ·
                       </span>
                       {detail}
                     </li>

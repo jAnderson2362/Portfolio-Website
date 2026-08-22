@@ -12,7 +12,7 @@ export default function Marquee() {
             className="flex items-center whitespace-nowrap font-mono text-xs uppercase tracking-[0.2em] text-muted"
           >
             <span className="px-6">{skill}</span>
-            <span className="text-accent">✳</span>
+            <span className="text-faint">·</span>
           </span>
         ))}
       </div>

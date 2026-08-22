@@ -17,7 +17,7 @@ export const projects: Project[] = [
     status: "Ongoing",
     year: "2026",
     description:
-      "An exam preparation app that generates syllabus-aligned quizzes, revision notes, and practice exams tailored to specific exam systems — built for secondary and university students who need structured revision.",
+      "An exam-prep app that generates syllabus-aligned quizzes, revision notes, and practice exams for specific exam systems. Built for secondary and university students who want structured revision.",
     details: [
       "Founded and lead a five-person team across design, frontend, and backend",
       "Full-stack development with React, FastAPI, and Supabase",
@@ -29,11 +29,11 @@ export const projects: Project[] = [
   {
     index: "02",
     title: "Studio Rapture",
-    role: "Web Developer — WDCC",
+    role: "Web Developer, WDCC",
     status: "In progress",
     year: "2026",
     description:
-      "A client website delivered through AUT's Web Development Consulting Club — a responsive, CMS-driven site built by a collaborative student team for a real client.",
+      "A client website delivered through University of Auckland's Web Development Consulting Club. A responsive, CMS-driven site built by a student team for a real client.",
     details: [
       "Integrating front-end components into a cohesive, responsive homepage",
       "Translating designs into clean, reusable React components with Tailwind",
@@ -47,9 +47,9 @@ export const projects: Project[] = [
     title: "Inventory Management System",
     role: "Solo Developer",
     status: "Completed",
-    year: "2025",
+    year: "2026",
     description:
-      "A Java-based system for managing stock data — core CRUD operations for inventory items with accurate tracking of stock levels and consistent record maintenance.",
+      "A Java system for managing stock data. Full CRUD for inventory items, with accurate stock-level tracking and consistent records.",
     details: [
       "Add, update, delete, and search inventory items",
       "User input validation and consistent product data",
