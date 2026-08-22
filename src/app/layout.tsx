@@ -32,14 +32,21 @@ export const metadata: Metadata = {
   title: "James Anderson / Software Developer",
   description:
     "Software developer in Auckland, New Zealand. Computer science student at AUT, founder of Prep, and web developer with WDCC. Building useful products with React, TypeScript, and Python.",
-    openGraph: {
+  openGraph: {
     title: "James Anderson / Software Developer",
     description:
       "Software developer in Auckland, NZ. CS student at AUT, founder of Prep, and web developer with WDCC.",
-    url: "https://your-vercel-url.vercel.app",
+    url: "https://james-anderson.vercel.app",
     type: "website",
+    images: [
+      {
+        url: "https://james-anderson.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
-};
+}
 
 export default function RootLayout({
   children,
