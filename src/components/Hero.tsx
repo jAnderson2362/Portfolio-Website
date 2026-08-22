@@ -26,7 +26,7 @@ export default function Hero() {
           <span className="flex items-center gap-5 sm:gap-8">
             <span className="text-[15vw] sm:text-[11vw]">James</span>
             <span className="hidden shrink-0 sm:inline-block">
-              <span className="inline-block h-28 w-28 overflow-hidden rounded-full border border-line-strong lg:h-36 lg:w-36">
+              <span className="inline-block h-40 w-40 overflow-hidden rounded-full border border-line-strong lg:h-52 lg:w-52">
                 <img
                   src="/profile.jpg"
                   alt="James Anderson"
