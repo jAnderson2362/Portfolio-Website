@@ -66,14 +66,6 @@ export default function Hero() {
           </div>
         </Reveal>
       </div>
-
-      {/* rotated marginalia */}
-      <span
-        aria-hidden
-        className="absolute right-4 top-1/2 hidden origin-right -rotate-90 font-mono text-[10px] uppercase tracking-[0.3em] text-faint lg:block"
-      >
-        Scroll for selected work ↓
-      </span>
     </section>
   );
 }

@@ -11,7 +11,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    index: "01",
+    index: "1",
     title: "Prep",
     role: "Founder & Product Lead",
     status: "Ongoing",
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     stack: ["React", "TypeScript", "Python", "FastAPI", "Supabase", "AI APIs"],
   },
   {
-    index: "02",
+    index: "2",
     title: "Studio Rapture",
     role: "Web Developer, WDCC",
     status: "In progress",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     stack: ["React", "TypeScript", "Tailwind CSS", "Payload CMS", "MongoDB"],
   },
   {
-    index: "03",
+    index: "3",
     title: "Inventory Management System",
     role: "Solo Developer",
     status: "Completed",

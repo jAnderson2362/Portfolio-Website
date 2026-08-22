@@ -8,9 +8,9 @@ export default function Contact() {
           ( Contact )
         </p>
         <h2 className="font-serif leading-[0.95] tracking-tight">
-          <span className="block text-[10vw] sm:text-[7vw]">Let&rsquo;s make</span>
+          <span className="block text-[10vw] sm:text-[7vw]">Let&rsquo;s work</span>
           <span className="block pl-[8vw] text-[10vw] text-accent sm:text-[7vw]">
-            something.
+            together.
           </span>
         </h2>
       </Reveal>
