@@ -29,7 +29,7 @@ export const projects: Project[] = [
   {
     index: "2",
     title: "Studio Rapture",
-    role: "Web Developer, WDCC",
+    role: "Full-stack Developer, WDCC",
     status: "In progress",
     year: "2026",
     description:
@@ -45,8 +45,8 @@ export const projects: Project[] = [
   {
     index: "3",
     title: "Inventory Management System",
-    role: "Solo Developer",
-    status: "Completed",
+    role: "Solo Developed",
+    status: "",
     year: "2026",
     description:
       "A Java system for managing stock data. Full CRUD for inventory items, with accurate stock-level tracking and consistent records.",
