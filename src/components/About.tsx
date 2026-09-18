@@ -5,13 +5,13 @@ export default function About() {
   return (
     <section id="about" className="px-5 py-24 sm:px-10 sm:py-32">
       <div className="grid grid-cols-12 gap-x-6 gap-y-12">
-        <Reveal className="col-span-12 sm:col-span-3">
+        <Reveal className="col-span-12 sm:col-span-2">
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
             ( About )
           </p>
         </Reveal>
 
-        <Reveal delay={0.1} className="col-span-12 sm:col-span-7">
+        <Reveal delay={0.1} className="col-span-12 sm:col-span-6">
           <p className="font-serif text-2xl leading-snug tracking-tight sm:text-4xl">
             I like building products end to end. That means{" "}
             <em className="not-italic text-accent">talking to the people</em> who&rsquo;ll
@@ -20,7 +20,7 @@ export default function About() {
           <div className="mt-8 max-w-xl space-y-5 leading-relaxed text-muted">
             <p>
               CS student at AUT. I founded Prep, an exam-prep app, and lead a
-              five-person team building it. I also build client websites through
+              five-person team building it. I am also helping build a client's website through
               University of Auckland&rsquo;s Web Development Consulting Club.
             </p>
             <p>
@@ -31,25 +31,21 @@ export default function About() {
           </div>
         </Reveal>
 
-        <Reveal delay={0.2} className="col-span-12 sm:col-span-2">
-          <div className="border-l border-line pl-5 font-mono text-[11px] leading-loose tracking-wide text-muted">
-            <p className="mb-4">
-              <span className="mb-1 block uppercase tracking-[0.2em] text-faint">
+        <Reveal delay={0.2} className="col-span-12 sm:col-span-4">
+          <div className="border-l border-line pl-6 font-mono text-sm leading-relaxed tracking-wide text-muted">
+            <p className="mb-8">
+              <span className="mb-2 block text-[11px] uppercase tracking-[0.2em] text-faint">
                 Education
               </span>
-              {education.school}
+              <span className="font-sans text-lg text-foreground">{education.school}</span>
               <br />
               {education.degree}
               <br />
-              <span className="text-faint">{education.period}</span>
-            </p>
-            <p>
-              <span className="mb-1 block uppercase tracking-[0.2em] text-faint">
-                Currently
-              </span>
-              Prep, Founder
+              {education.major}
               <br />
-              WDCC, Developer
+              {education.minor}
+              <br />
+              <span className="text-faint">{education.period}</span>
             </p>
           </div>
         </Reveal>

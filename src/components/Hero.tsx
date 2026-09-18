@@ -4,19 +4,12 @@ export default function Hero() {
   return (
     <section id="top" className="relative px-5 pt-36 pb-20 sm:px-10 sm:pt-44 sm:pb-28">
       {/* meta column, offset right */}
-      <div className="mb-10 flex flex-wrap items-start justify-between gap-6 font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
+      <div className="mb-10 font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
         <Reveal>
           <p>
             Auckland, New Zealand
             <br />
             <span className="text-faint">36.85° S / 174.76° E</span>
-          </p>
-        </Reveal>
-        <Reveal delay={0.1}>
-          <p className="text-right">
-            Portfolio / 2026
-            <br />
-            <span className="text-faint">Software / Product</span>
           </p>
         </Reveal>
       </div>
@@ -45,19 +38,7 @@ export default function Hero() {
 
       <div className="mt-14 grid grid-cols-12 gap-6">
         <Reveal delay={0.25} className="col-span-12 sm:col-span-6 sm:col-start-6 lg:col-span-5 lg:col-start-7">
-          <p className="text-lg leading-relaxed text-muted sm:text-xl">
-            Software developer and CS student at AUT. I like{" "}
-            <em className="font-serif not-italic text-foreground">turning rough ideas into real things</em>.
-            Lately that means{" "}
-            <a
-              href="#work"
-              className="link-sweep text-foreground underline decoration-line-strong underline-offset-4"
-            >
-              Prep
-            </a>
-            , an exam-prep app I&rsquo;m building, plus client work with WDCC.
-          </p>
-          <div className="mt-8 flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.2em]">
+          <div className="flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.2em]">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-accent"></span>

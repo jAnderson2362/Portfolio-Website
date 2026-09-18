@@ -38,6 +38,7 @@ export const experience: Role[] = [
 export const education = {
   school: "Auckland University of Technology",
   degree: "Bachelor of Computer and Information Sciences",
-  detail: "Major in Computer Science · Minor in Software Development",
+  major: "Major in Computer Science",
+  minor: "Minor in Software Development",
   period: "2025 – 2027 (expected)",
 };

@@ -3,14 +3,14 @@ import Reveal from "./Reveal";
 
 export default function Projects() {
   return (
-    <section id="work" className="px-5 py-24 sm:px-10 sm:py-32">
+    <section id="projects" className="px-5 py-24 sm:px-10 sm:py-32">
       <Reveal>
         <div className="mb-16 flex items-end justify-between">
           <h2 className="font-serif text-4xl tracking-tight sm:text-6xl">
-            Selected work
+            Projects
           </h2>
           <span className="hidden font-mono text-[11px] uppercase tracking-[0.2em] text-faint sm:block">
-            ( Work )
+            ( Projects )
           </span>
         </div>
       </Reveal>

@@ -9,11 +9,11 @@ export default function Navbar() {
         </a>
         <div className="flex items-center gap-6">
           <div className="hidden items-baseline gap-8 font-mono text-sm uppercase tracking-[0.15em] text-muted sm:flex">
-            <a href="#work" className="link-sweep hover:text-foreground">
-              Work
-            </a>
             <a href="#about" className="link-sweep hover:text-foreground">
               About
+            </a>
+            <a href="#projects" className="link-sweep hover:text-foreground">
+              Projects
             </a>
             <a href="#experience" className="link-sweep hover:text-foreground">
               Experience
