@@ -60,18 +60,18 @@ export const projects: Project[] = [
   {
     index: "4",
     title: "OvertakeJS",
-    role: "Solo Developed",
+    role: "Personal Project",
     status: "Ongoing",
     year: "2026",
     description:
-      "A race simulation engine that works out race outcomes from real car performance data, then plays the result back as a sped-up live race. Pick your cars and a circuit, and the sim uses horsepower, weight, and grip to decide who wins, the lap times, and the gaps.",
+      "A physics-based race simulation engine. A lap-time solver derives results from real car data via tyre grip, power, and aerodynamic drag, then scales into a deterministic race engine simulating multi-car races at 50 ms resolution with overtaking, tyre wear, and fuel burn.",
     details: [
-      "Lap simulation engine built from track geometry and car physics data",
-      "REST API with Express and MongoDB for cars, circuits, and race history",
-      "Live race playback drawn on HTML5 Canvas, with motion.dev for UI animation",
-      "Car and circuit setup pages with search, filters, and a table view",
+      "Physics-based lap-time solver and deterministic multi-car race engine",
+      "React frontend with Vite, Tailwind, and Framer Motion animating each race",
+      "JWT and bcrypt authentication with a collectible card system",
+      "Full-stack app persisted in MongoDB with Express REST API",
     ],
-    stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "HTML5 Canvas", "Tailwind CSS"],
+    stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "Framer Motion", "Tailwind CSS"],
   },
 ];
 

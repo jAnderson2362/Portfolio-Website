@@ -24,15 +24,6 @@ export const experience: Role[] = [
       "Quality control and stock rotation to maintain compliance standards",
     ],
   },
-  {
-    title: "Front Desk Assistant",
-    org: "Ploy Thai Health Massage",
-    period: "Jan 2022 – Present",
-    notes: [
-      "Front desk operations: bookings, scheduling, staff timetable coordination",
-      "First point of contact for clients, handling enquiries and requests",
-    ],
-  },
 ];
 
 export const education = {
