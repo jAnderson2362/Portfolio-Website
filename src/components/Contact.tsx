@@ -56,6 +56,19 @@ export default function Contact() {
               </span>
               <span className="font-mono text-sm uppercase tracking-[0.15em]">LinkedIn</span>
             </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 text-muted transition-all duration-300 hover:text-foreground"
+            >
+              <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-line-strong transition-all duration-300 hover:border-foreground hover:scale-110">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/>
+                </svg>
+              </span>
+              <span className="font-mono text-sm uppercase tracking-[0.15em]">Resume</span>
+            </a>
           </div>
         </div>
       </Reveal>
