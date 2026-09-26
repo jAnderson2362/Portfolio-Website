@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "James Anderson / Software Developer",
     description:
-      "Software developer in Auckland, NZ. CS student at AUT, founder of Prep, and web developer with WDCC.",
+      "Software developer in Auckland, NZ. CS student at AUT, founder of Prep, and developer with WDCC.",
     url: "https://james-anderson.vercel.app",
     type: "website",
     images: [

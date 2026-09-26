@@ -57,7 +57,7 @@ export default function Contact() {
               <span className="font-mono text-sm uppercase tracking-[0.15em]">LinkedIn</span>
             </a>
             <a
-              href="/resume.pdf"
+              href="/James_Anderson_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-muted transition-all duration-300 hover:text-foreground"
